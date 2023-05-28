@@ -1,0 +1,20 @@
+		 
+1.API end point to store employee details
+===================================================================================================
+http://localhost:8080/source/api/createEmployee
+
+{ 
+"employeeId":"01",
+"firstName":"sai", 
+"lastName": "ganesh", 
+"email": "mca.saiganesh@gmail.com",
+"phoneNumbers":[ "9154484859" ], 
+"dateOfJoining":"2019-06-27T00:00:00",
+"salary":"1000000" 
+}
+
+2.API end point to return employees' tax deduction for the current financial year(April to March). 
+API should return employee code, first name, last name, yearly salary, tax amount, cess amount.
+===================================================================================================
+http://localhost:8080/source/api/getTaxDeduction
+
